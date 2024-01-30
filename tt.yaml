@@ -1,6 +1,6 @@
 ---
 - name: Ping Test
-  hosts: 10.147.250.220,10.147.250.220
+  hosts: 10.147.250.212,10.147.250.220
   gather_facts: false
   tasks:
     - name: Ping the server
