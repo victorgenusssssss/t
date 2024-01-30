@@ -1,6 +1,6 @@
 ---
 - name: Ping Test
-  hosts: all
+  hosts: 10.10.10.214
   gather_facts: false
   tasks:
     - name: Ping the server
